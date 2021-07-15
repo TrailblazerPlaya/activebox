@@ -103,6 +103,7 @@ p {
     color: #fff;
     line-height: 1.5;
     font-weight: 400;
+    margin-bottom: 55px;
 }
 
 
@@ -113,10 +114,10 @@ p {
     font-size: 13px;
     color: #fff;
     padding: 14px 40px;
-    margin-top: 55px;
     border-radius: 2px;
     font-weight: 600;
     text-transform: uppercase;
+    text-align: center;
     text-decoration: none;
     transition: background .1s linear;
 }
@@ -129,6 +130,9 @@ p {
     background-color: rgba(209, 5, 5, 0.733);
 }
 
+.btn--long {
+    min-width: 280px;
+}
 
 /*Features*/
 .features {
@@ -273,6 +277,10 @@ p {
     display: flex;
 }
 
+.social__footer {
+    justify-content: center;
+}
+
 .social__item {
     display: flex;
     justify-content: center;
@@ -341,4 +349,74 @@ p {
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+}
+
+/*Download*/
+.download {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #2d3033;
+}
+
+.download__text {
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+/*Footer*/
+.footer {
+    
+    background-color: #3a3e64;
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+}
+
+.footer__block {
+    width: 33.3333%;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.footer__title {
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer__address {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.copyright {
+    padding: 20px 0;
+    background-color: #313454;
+}
+
+.copyright__text {
+    text-align: center;
+    color: #808080;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.copyright__text span {
+    color: #fff;
 }
